@@ -4,20 +4,65 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>One Week Wonder</title>
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <load src="./partials/header.html" icon-path="img/sprite.svg#logo" />
-
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/vite-promo.html" />
-      <load src="./partials/badges.html" />
-    </main>
-
-    <load src="./partials/footer.html" />
-
+    <div  class="navBar">
+      <button class="logoBnt"><img src="logo.svg" alt="logo"></button>
+      <nav>
+        <a href="#Milestones" class="navBtn1">Milestones</a>
+        <a href="#Portfolios" class="navBtn2">Portfolios</a>
+        <a href="#Services" class="navBtn3">Services</a>
+        <a href="#Work" class="navBtn4">Work</a>
+        <a href="#Testimonials" class="navBtn5">Testimonials</a>
+        <button class="orderBntNav" href="Order.html">Start a project?</button>
+      </nav>
+    </div>
+    <div class="titleText">
+      <h1 class="titleSign">One of the most important pieces of the greay product experience is you</h1>
+      <h3 class="secSign">a creative agency that creafting a digital experience</h3>
+    </div>
+    <div class="mainImg">
+      <img src="mainimg.jpg" alt="mainimg">
+    </div>
+    <div class="Milestones">
+      <p class="MilestonesTitle">Milestones</p>
+      <h2 class="MilSign">Stand aware of accompishments, Stay awake to achieve more.</h2>
+      <div class="milstats">
+        <div class="stats">
+          <h3 class="statsTitle">$699m+</h3>
+          <h4 class="statsSecSign">Capital raised</h4>
+          <p class="statsText">Total ammount of capital raised following collaboration with One Week Wonders</p>
+        </div>
+        <div class="stats">
+          <h3 class="statsTitle">8</h3>
+          <h4 class="statsSecSign">Unicorn branded</h4>
+          <p class="statsText">Unicorn branded that have gained up to $1B valuations post-branding</p>
+        </div>
+        <div class="stats">
+          <h3 class="statsTitle">300+</h3>
+          <h4 class="statsSecSign">Acquisitions</h4>
+          <p class="statsText">Number of clients who have been acquired following collaboration with One Week Wonders</p>
+        </div>
+        <div class="statsParag">
+          <p class="paragraph">Our clients are companies, brands, and startups that keep the world going around.
+            <br>
+            <br>
+            They treat diseases, move parcels, insure cars, process 
+            payments, create jobs, rent homes and publish news. They are vast 
+            and complex businesses requiring design experiences that are just as 
+            <span class="paragraph-span">
+              people-friendly as they are, 
+              <em>robust</em>
+              and 
+              <em>scalable</em>
+            </span>
+            <em>.</em>
+          </p>
+        </div>
+      </div>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
