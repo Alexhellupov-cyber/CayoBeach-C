@@ -1,18 +1,25 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-/* Common styles */
-@import url('./reset.css');
-@import url('./base.css');
-@import url('./container.css');
-@import url('./animations.css');
+body {
+  color: black;
+  font-weight: 500;
+  line-height: 120%;
+}
 
-/* Sections style */
-@import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
-@import url('./footer.css');
+html {
+  height: 100%;
+  display: block;
+}
+
+.navbar {
+  padding: 32px 60px;
+}
+
+.nav {
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
