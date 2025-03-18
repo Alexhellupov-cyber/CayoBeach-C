@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/CayoBeach-/",
+    "build": "vite build --base=/CayoBeach-C/",
     "preview": "vite preview"
   },
   "devDependencies": {
